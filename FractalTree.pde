@@ -10,8 +10,8 @@ public void draw()
 {   
 	background(226,191,159);   
 	stroke(0);   
-	line(320,480,320,380);   
-	drawBranches(320,380,100,3*Math.PI/2);
+	line(320,480,310,380);   
+	drawBranches(310,380,100,3*Math.PI/2);
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
